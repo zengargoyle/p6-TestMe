@@ -1,0 +1,19 @@
+{
+  "authors" : [
+    "zengargoyle"
+  ],
+  "build-depends" : [ ],
+  "depends" : [ "YAMLish" ],
+  "description" : "blah blah blah",
+  "license" : "Artistic-2.0",
+  "name" : "p6::TestMe",
+  "perl" : "6.c",
+  "provides" : {
+    "p6::TestMe" : "lib/p6/TestMe.pm6"
+  },
+  "resources" : [ ],
+  "source-url" : "",
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}
