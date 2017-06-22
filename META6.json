@@ -4,7 +4,10 @@
   ],
   "build-depends" : [ ],
   "depends" : [
-    "YAMLish"
+    "YAMLish",
+    "File::Temp",
+    "Text::Markdown",
+    "Template::Mustache"
   ],
   "description" : "blah blah blah",
   "license" : "Artistic-2.0",
