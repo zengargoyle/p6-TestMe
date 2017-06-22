@@ -6,7 +6,7 @@ perl6:
   - latest
 install:
   - rakudobrew build zef
-  - zef --verbose install .
+  - (for f in File::Temp Text::Markdown Template::Mustache YAMLish; do zef --verbose install $f; done)
 script:
   - PERL6LIB=$PWD/lib prove -e perl6 -vr t/
 sudo: false
